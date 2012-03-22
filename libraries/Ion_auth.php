@@ -378,5 +378,15 @@ class Ion_auth
 
 		return FALSE;
 	}
-
+	
+	/**
+	 * user
+	 *
+	 * @return object 
+	 * @author apcshields
+	 **/
+	public function user($id=false)
+	{
+		return $this->ci->ion_auth_model->user($id)->row();
+	}
 }
