@@ -20,9 +20,9 @@
 	/**
 	 * Tables.
 	 **/
-	$config['tables']['groups']          = 'groups';
-	$config['tables']['users']           = 'users';
-	$config['tables']['users_groups']    = 'users_groups';
+	$config['tables']['groups']          = 'ion_groups';
+	$config['tables']['users']           = 'ion_users';
+	$config['tables']['users_groups']    = 'ion_users_groups';
 	
 	/**
 	 * Site Title, example.com
